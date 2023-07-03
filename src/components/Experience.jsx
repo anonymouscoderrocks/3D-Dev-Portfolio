@@ -6,7 +6,7 @@ import {
 import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
-
+import { linkedin } from "../assets";
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -68,6 +68,13 @@ const Experience = () => {
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience.
         </h2>
+        <a
+          href="https://www.linkedin.com/in/gauravraj0510/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="linkedin_image" src={linkedin} alt="" />
+        </a>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
