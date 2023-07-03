@@ -14,11 +14,7 @@ import {
   mongodb,
   git,
   figma,
-  // docker,
-  // meta,
-  // starbucks,
-  // tesla,
-  // shopify,
+  python,
   wwv,
   solblocks,
   spacefalcon,
@@ -26,6 +22,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  eth,
+  polygon,
+  solidity,
+  solana,
+  firebase,
 } from "../assets";
 
 export const navLinks = [
@@ -64,13 +65,10 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+
   {
     name: "JavaScript",
     icon: javascript,
@@ -80,29 +78,39 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Solidity",
+    icon: solidity,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
+
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Ethereum",
+    icon: eth,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Polygon",
+    icon: polygon,
+  },
+  {
+    name: "Solana",
+    icon: solana,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -111,10 +119,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
 ];
 
 const experiences = [
