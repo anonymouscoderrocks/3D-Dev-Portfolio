@@ -9,7 +9,12 @@ import { styles } from "../styles";
 const Tech = () => {
   return (
     <>
-      <motion.div className="mb-20" variants={textVariant()}>
+      <motion.div
+        id="tech"
+        style={{ "scroll-margin-top": "8rem" }}
+        className="mb-20 "
+        variants={textVariant()}
+      >
         <p className={`${styles.sectionSubText} text-center`}>
           My experience and expertise
         </p>
