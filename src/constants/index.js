@@ -3,31 +3,29 @@ import {
   backend,
   creator,
   web,
-  canva,
-  css,
-  eth,
-  figma,
-  firebase,
-  git,
-  html,
   javascript,
-  mongodb,
-  nodejs,
-  polygon,
-  python,
+  typescript,
+  html,
+  css,
   reactjs,
   redux,
-  solana,
-  solidity,
   tailwind,
-  typescript,
-  threejs,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  // docker,
+  // meta,
+  // starbucks,
+  // tesla,
+  // shopify,
   wwv,
   solblocks,
   spacefalcon,
   carrent,
   jobit,
   tripguide,
+  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -66,17 +64,13 @@ const services = [
 
 const technologies = [
   {
-    name: "Python",
-    icon: python,
+    name: "HTML 5",
+    icon: html,
   },
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -89,10 +83,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -102,33 +96,13 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Solidity",
-    icon: solidity,
-  },
-  {
-    name: "Ethereum",
-    icon: eth,
-  },
-  {
-    name: "Polygon",
-    icon: polygon,
-  },
-  {
-    name: "Solana",
-    icon: solana,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "firebase",
-    icon: firebase,
+    name: "Three JS",
+    icon: threejs,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
   {
     name: "git",
     icon: git,
@@ -138,8 +112,8 @@ const technologies = [
     icon: figma,
   },
   // {
-  //   name: "canva",
-  //   icon: canva,
+  //   name: "docker",
+  //   icon: docker,
   // },
 ];
 
