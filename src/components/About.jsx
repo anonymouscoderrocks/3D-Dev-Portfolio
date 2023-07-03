@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { services } from "../constants";
+import { services, socialLinks } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -54,7 +54,15 @@ const About = () => {
         scalable, and intuitive automations that effectively address real-world
         challenges. Let's join forces to transform your ideas into reality!
       </motion.p>
-
+      <div className="mt-5 flex flex-wrap gap-5">
+        {socialLinks.map((social, index) => (
+          <div className="w-10 glow-on-hover" key={index}>
+            <a href={social.url} target="_blank" rel="noopener noreferrer">
+              <img src={social.icon} alt="" />
+            </a>
+          </div>
+        ))}
+      </div>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

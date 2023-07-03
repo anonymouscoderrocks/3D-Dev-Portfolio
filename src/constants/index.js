@@ -27,6 +27,10 @@ import {
   solidity,
   solana,
   firebase,
+  github,
+  linkedin_logo,
+  twitter,
+  instagram,
 } from "../assets";
 
 export const navLinks = [
@@ -49,6 +53,29 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+];
+
+const socialLinks = [
+  {
+    title: "LinkedIn",
+    icon: linkedin_logo,
+    url: "https://www.linkedin.com/in/gauravraj0510/",
+  },
+  {
+    title: "Github",
+    icon: github,
+    url: "https://github.com/gauravraj0510/",
+  },
+  {
+    title: "Twitter",
+    icon: twitter,
+    url: "https://twitter.com/gauravraj0510/",
+  },
+  {
+    title: "Instagram",
+    icon: instagram,
+    url: "https://instagram.com/gauravraj0510/",
   },
 ];
 
@@ -269,4 +296,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  socialLinks,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+};
