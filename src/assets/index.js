@@ -31,13 +31,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import clothifyai from "./projects/clothifyai.png";
+import avaxroyale from "./projects/avaxroyale.png";
+import githubvis from "./projects/githubvis.png";
+import musicanim from "./projects/musicanim.png";
+import promptpad from "./projects/promptpad.png";
+import webflix from "./projects/webflix.png";
+import whatsappchat from "./projects/whatsappchat.png";
+
 import wwv from "./company/wwv.png";
 import solblocks from "./company/solblocks.png";
 import spacefalcon from "./company/spacefalcon.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -70,11 +74,15 @@ export {
   wwv,
   solblocks,
   spacefalcon,
-  carrent,
-  jobit,
-  tripguide,
   linkedin,
   linkedin_logo,
   twitter,
   instagram,
+  avaxroyale,
+  clothifyai,
+  githubvis,
+  musicanim,
+  promptpad,
+  webflix,
+  whatsappchat,
 };
