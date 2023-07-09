@@ -1,4 +1,5 @@
 ## Screenshots
+- Deployed on Vercel
 
 ![App Screenshot](https://raw.githubusercontent.com/gauravraj0510/3D-Dev-Portfolio/main/ss/portfolio.png)
 ![App Screenshot](https://raw.githubusercontent.com/gauravraj0510/3D-Dev-Portfolio/main/ss/portfolio2.png)
